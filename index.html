@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#030914" />
+  <title>CCM | Automotive Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="progress"></div>
+  <header class="nav">
+    <a class="brand" href="#inicio"><span>CCM</span><small>AUTOMOTIVE EXPERIENCE</small></a>
+    <nav><a href="#experiencia">Experiencia</a><a href="#servicios">Servicios</a><a href="#taller">Taller</a></nav>
+    <a class="pill" href="#contacto">Agendar</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TALLER AUTOMOTRIZ · PLATANAR, COSTA RICA</p>
+        <h1>NO SOLO<br>REPARAMOS <em>AUTOS.</em></h1>
+        <p>Los devolvemos al camino. Diagnóstico, mecánica y atención responsable en una experiencia diseñada alrededor de tu vehículo.</p>
+        <a class="cta" href="#experiencia">INICIAR EXPERIENCIA <span>↓</span></a>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section id="experiencia" class="experience">
+      <div class="sticky-stage">
+        <canvas id="carCanvas" aria-label="Vehículo 3D interactivo"></canvas>
+        <div class="scanline"></div>
+        <div class="hud hud-top"><span>CCM // VEHICLE SYSTEM</span><span id="fps">WEBGL ACTIVE</span></div>
+        <div class="hud hud-bottom"><span>NISSAN PATHFINDER // R51 INSPIRED</span><span>DRAG TO ROTATE</span></div>
+        <div id="chapter" class="chapter">
+          <span id="chapterNo">01</span>
+          <div><p id="chapterKicker">SYSTEM CHECK</p><h2 id="chapterTitle">DIAGNÓSTICO</h2><p id="chapterText">Analizamos las señales del vehículo antes de intervenir.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="services">
+      <p class="eyebrow">CCM // CAPACIDADES</p><h2>UN TALLER.<br><em>TODO EL SISTEMA.</em></h2>
+      <div class="service-list">
+        <article><b>01</b><h3>Diagnóstico computarizado</h3><span>LECTURA · ANÁLISIS · ORIENTACIÓN</span></article>
+        <article><b>02</b><h3>Mecánica general</h3><span>MOTOR · MANTENIMIENTO · REPARACIÓN</span></article>
+        <article><b>03</b><h3>Frenos</h3><span>SEGURIDAD · INSPECCIÓN · SERVICIO</span></article>
+        <article><b>04</b><h3>Suspensión y dirección</h3><span>CONTROL · ESTABILIDAD · CONFORT</span></article>
+        <article><b>05</b><h3>Sistema eléctrico</h3><span>BATERÍA · CARGA · DIAGNÓSTICO</span></article>
+      </div>
+    </section>
+
+    <section id="taller" class="story">
+      <p class="eyebrow">THE HUMAN BEHIND THE MACHINE</p><h2>CONSTRUIDO<br><em>PASO A PASO.</em></h2>
+      <p>CCM nace del trabajo, la experiencia y la confianza. Cada vehículo que entra representa la confianza de una persona y merece una revisión responsable.</p>
+      <div class="stats"><div><strong>CCM</strong><span>Mecánica en general</span></div><div><strong>4×4</strong><span>Experiencia multimarca</span></div><div><strong>100%</strong><span>Atención cercana</span></div></div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <p class="eyebrow">READY // CCM</p><h2>TU VEHÍCULO.<br><em>NUESTRO PRÓXIMO TRABAJO.</em></h2>
+      <div><a class="cta" href="tel:88568578">LLAMAR 8856 8578</a><p>Entrada al aeropuerto, Platanar<br>L–V 7:30–17:30 · Sáb 7:30–12:30</p></div>
+    </section>
+  </main>
+
+  <footer>© 2026 CCM · TALLER AUTOMOTRIZ</footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
